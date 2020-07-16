@@ -1,0 +1,22 @@
+{
+    "name": "sablesoft/yii2-konva",
+    "description": "Konva.js component for yii2 web application",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii2-konva", "konva", "konvajs", "konva.js", "sablesoft"],
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "SableSoft (Raman Sobal)",
+            "email": "sable.lair@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "sablesoft/yii2-vue": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sablesoft\\konva\\":"src/"
+        }
+    }
+}
